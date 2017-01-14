@@ -1,0 +1,9 @@
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\bin\Debug\JRV_PoliceSniper.exe.config
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\bin\Debug\JRV_PoliceSniper.exe
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\bin\Debug\JRV_PoliceSniper.pdb
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.Form1.resources
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.Properties.Resources.resources
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.csproj.GenerateResource.Cache
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.exe
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.pdb
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.csprojResolveAssemblyReference.cache

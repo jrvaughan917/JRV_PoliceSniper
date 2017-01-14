@@ -1,0 +1,92 @@
+OK:
+
+As time increases, difficulty goes up.
+Shorter time between switches.
+
+Bad Guys:
+	Bad_Guy_Green
+	Bad_Guy_Purple
+	Bad_Guy_Red_Green
+	Bad_Guy_Striped
+	BadGuyRifle1
+	BadGuyRifle2
+	BadGuyRifle3
+	BadGuyStriped2
+Good Guys:
+	Good_Guy_Black___White
+	Good_Guy_Cat1
+	Good_Guy_Green
+	Good_Guy_Striped
+	GoodGirl1
+	GoodGirl2
+	GoodGirl3
+	GoodGuyCat2
+	GoodGuyCat3
+
+So as time goes on, the timer speeds up.
+
+So people appear and disappear faster.
+
+I can also set up a varying appear rate ...?
+
+would be cool if all windows were occupied. 
+
+How would that be possible?
+
+If appear rate and disappear rate are equal, then maybe 50% will always be filled.
+
+At each tick...
+chance of appear and chance of disappear.
+
+Upon click, check the picture name (i.e. this.image)
+If a bad guy, get a point and the timer (may) increase.
+If a good guy, game over.
+
+Upon game over, display game over form. 
+Display number of bad guys clicked.
+
+
+
+
+
+
+window12.Image = JRV_PoliceSniper.Properties.Resources.BadGuyRifle1;
+window12.Image = JRV_PoliceSniper.Properties.Resources.BadGuyRifle2;
+window12.Image = JRV_PoliceSniper.Properties.Resources.BadGuyRifle3;
+window12.Image = JRV_PoliceSniper.Properties.Resources.BadGuyStriped2;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Bad_Guy_Green;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Bad_Guy_Purple;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Bad_Guy_Red_Green;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Bad_Guy_Striped;
+
+window12.Image = JRV_PoliceSniper.Properties.Resources.GoodGirl1;
+window12.Image = JRV_PoliceSniper.Properties.Resources.GoodGirl2;
+window12.Image = JRV_PoliceSniper.Properties.Resources.GoodGirl3;
+window12.Image = JRV_PoliceSniper.Properties.Resources.GoodGuyCat2;
+window12.Image = JRV_PoliceSniper.Properties.Resources.GoodGuyCat3;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Good_Guy_Black___White;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Good_Guy_Cat1;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Good_Guy_Green;
+window12.Image = JRV_PoliceSniper.Properties.Resources.Good_Guy_Striped;
+
+
+
+BadGuyRifle1
+BadGuyRifle2
+BadGuyRifle3
+BadGuyStriped2
+Bad_Guy_Green
+Bad_Guy_Purple
+Bad_Guy_Red_Green
+Bad_Guy_Striped
+
+
+GoodGirl1
+GoodGirl2
+GoodGirl3
+GoodGuyCat2
+GoodGuyCat3
+Good_Guy_Black___White
+Good_Guy_Cat1
+Good_Guy_Green
+Good_Guy_Striped
