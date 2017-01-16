@@ -47,6 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gameOver = new System.Windows.Forms.Label();
             this.restartButton = new System.Windows.Forms.Button();
+            this.hiscoreText = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.window12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.window9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.window6)).BeginInit();
@@ -64,6 +65,7 @@
             // 
             // window12
             // 
+            this.window12.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window12.Image = global::JRV_PoliceSniper.Properties.Resources.Good_Guy_Striped;
             this.window12.Location = new System.Drawing.Point(313, 392);
             this.window12.Name = "window12";
@@ -76,6 +78,7 @@
             // 
             // window9
             // 
+            this.window9.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window9.Image = global::JRV_PoliceSniper.Properties.Resources.Good_Guy_Black___White;
             this.window9.Location = new System.Drawing.Point(313, 278);
             this.window9.Name = "window9";
@@ -88,6 +91,7 @@
             // 
             // window6
             // 
+            this.window6.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window6.Image = global::JRV_PoliceSniper.Properties.Resources.BadGuyRifle2;
             this.window6.Location = new System.Drawing.Point(313, 164);
             this.window6.Name = "window6";
@@ -100,6 +104,7 @@
             // 
             // window11
             // 
+            this.window11.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window11.Image = global::JRV_PoliceSniper.Properties.Resources.Good_Guy_Green;
             this.window11.Location = new System.Drawing.Point(214, 392);
             this.window11.Name = "window11";
@@ -112,6 +117,7 @@
             // 
             // window3
             // 
+            this.window3.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window3.Image = global::JRV_PoliceSniper.Properties.Resources.GoodGirl3;
             this.window3.Location = new System.Drawing.Point(313, 50);
             this.window3.Name = "window3";
@@ -124,6 +130,7 @@
             // 
             // window10
             // 
+            this.window10.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window10.Image = global::JRV_PoliceSniper.Properties.Resources.Good_Guy_Cat1;
             this.window10.Location = new System.Drawing.Point(116, 392);
             this.window10.Name = "window10";
@@ -136,6 +143,7 @@
             // 
             // window5
             // 
+            this.window5.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window5.Image = global::JRV_PoliceSniper.Properties.Resources.GoodGuyCat3;
             this.window5.Location = new System.Drawing.Point(214, 164);
             this.window5.Name = "window5";
@@ -148,6 +156,7 @@
             // 
             // window8
             // 
+            this.window8.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window8.Image = global::JRV_PoliceSniper.Properties.Resources.BadGuyStriped2;
             this.window8.Location = new System.Drawing.Point(214, 278);
             this.window8.Name = "window8";
@@ -160,6 +169,7 @@
             // 
             // window4
             // 
+            this.window4.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window4.Image = global::JRV_PoliceSniper.Properties.Resources.GoodGuyCat2;
             this.window4.Location = new System.Drawing.Point(116, 164);
             this.window4.Name = "window4";
@@ -172,6 +182,7 @@
             // 
             // window7
             // 
+            this.window7.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window7.Image = global::JRV_PoliceSniper.Properties.Resources.BadGuyRifle3;
             this.window7.Location = new System.Drawing.Point(116, 278);
             this.window7.Name = "window7";
@@ -184,6 +195,7 @@
             // 
             // window2
             // 
+            this.window2.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window2.Image = global::JRV_PoliceSniper.Properties.Resources.GoodGirl2;
             this.window2.Location = new System.Drawing.Point(214, 50);
             this.window2.Name = "window2";
@@ -196,6 +208,7 @@
             // 
             // window1
             // 
+            this.window1.Cursor = System.Windows.Forms.Cursors.Cross;
             this.window1.Image = global::JRV_PoliceSniper.Properties.Resources.GoodGirl1;
             this.window1.Location = new System.Drawing.Point(116, 50);
             this.window1.Name = "window1";
@@ -208,6 +221,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Cross;
             this.pictureBox1.Image = global::JRV_PoliceSniper.Properties.Resources.Green_Building;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -246,6 +260,7 @@
             // 
             this.gameOver.AutoSize = true;
             this.gameOver.BackColor = System.Drawing.Color.Transparent;
+            this.gameOver.Cursor = System.Windows.Forms.Cursors.Cross;
             this.gameOver.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gameOver.ForeColor = System.Drawing.Color.Red;
             this.gameOver.Location = new System.Drawing.Point(63, 129);
@@ -258,7 +273,7 @@
             // 
             // restartButton
             // 
-            this.restartButton.Location = new System.Drawing.Point(358, 512);
+            this.restartButton.Location = new System.Drawing.Point(328, 512);
             this.restartButton.Name = "restartButton";
             this.restartButton.Size = new System.Drawing.Size(65, 49);
             this.restartButton.TabIndex = 6;
@@ -267,11 +282,24 @@
             this.restartButton.Visible = false;
             this.restartButton.Click += new System.EventHandler(this.restartButton_Click);
             // 
+            // hiscoreText
+            // 
+            this.hiscoreText.AutoSize = true;
+            this.hiscoreText.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hiscoreText.ForeColor = System.Drawing.Color.Red;
+            this.hiscoreText.Location = new System.Drawing.Point(100, 223);
+            this.hiscoreText.Name = "hiscoreText";
+            this.hiscoreText.Size = new System.Drawing.Size(281, 31);
+            this.hiscoreText.TabIndex = 8;
+            this.hiscoreText.Text = "Current High Score: ";
+            this.hiscoreText.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 607);
+            this.Controls.Add(this.hiscoreText);
             this.Controls.Add(this.restartButton);
             this.Controls.Add(this.gameOver);
             this.Controls.Add(this.label1);
@@ -330,6 +358,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label gameOver;
         private System.Windows.Forms.Button restartButton;
+        private System.Windows.Forms.Label hiscoreText;
     }
 }
 

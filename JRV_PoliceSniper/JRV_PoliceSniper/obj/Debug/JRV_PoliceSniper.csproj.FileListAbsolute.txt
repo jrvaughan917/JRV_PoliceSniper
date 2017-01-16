@@ -7,3 +7,4 @@ E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.csproj.
 E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.exe
 E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.pdb
 E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.csprojResolveAssemblyReference.cache
+E:\CS Study\JRV_PoliceSniper\JRV_PoliceSniper\obj\Debug\JRV_PoliceSniper.AboutForm.resources
