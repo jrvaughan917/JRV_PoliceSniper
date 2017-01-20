@@ -1,6 +1,4 @@
 # JRV_PoliceSniper
-
-JRV_PoliceSniper by James R. Vaughan 
  
 A simple game created in Visual C#
  
